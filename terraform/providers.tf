@@ -12,11 +12,11 @@ provider "azurerm" {
   features {}
 }
 
-terraform {
-  backend "azurerm" {
-    resource_group_name  = "storagerg"
-    storage_account_name = "strgtfstate01"
-    container_name       = "tfstatefile"
-    key                  = "dev.terraform.tfstate"
-  }
-}
+//terraform {
+//  backend "azurerm" {
+//    resource_group_name  = "storagerg"
+//    storage_account_name = "strgtfstate01"
+//    container_name       = "tfstatefile"
+//    key                  = "dev.terraform.tfstate"
+//}
+//}
